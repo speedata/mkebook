@@ -1,0 +1,13 @@
+title = "A book title"
+author = "A. U. Thor"
+filename = "out.epub"
+fonts = ["roboto-mono-v5-latin-300.woff"]
+css = "style.css"
+imagedir = "img"
+cover = "../images/ebook-cover.png"
+
+sections = [
+[ "out/chap-000.xhtml", "First chapter"],
+[ "out/chap-001.xhtml", "Second chapter" , "Subsection1", "ref_to_subsection1", "Subsection2", "ref_to_subsection2"],
+]
+
